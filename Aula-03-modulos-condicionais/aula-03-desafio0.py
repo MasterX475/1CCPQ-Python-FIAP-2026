@@ -6,7 +6,7 @@ elif idade < 16:
     print("Não pode votar")
 elif idade < 18:
     print("Voto opcional")
-elif idade < 60:
+elif idade < 71:
     print("Voto obrigatório")
 elif idade < 120:
     print("Voto opcional")
