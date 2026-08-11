@@ -16,11 +16,11 @@ for i in range(0, len(endpoint)):
     for numStatus in status[i]:
 
         if numStatus >= 200 and numStatus < 300:
-            print("Sucesso")
+            print(numStatus,"Sucesso")
             quantidadeSucesso += 1
             erroSeguido = 0
         else:
-            print("Erro")
+            print(numStatus,"Erro")
             quantidadeErro += 1
             erroSeguido += 1
 
@@ -43,7 +43,7 @@ for i in range(0, len(endpoint)):
     else:
         print("Estável")
 
-    print("/////////////////////////////////////////////////////////")
+    print("///////////////////-//////////////-//////////////////////")
 
 print("\nO mais defeituoso é:")
 print(endpoint[endpointErro[0]])
